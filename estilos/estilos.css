@@ -1,0 +1,33 @@
+/*estilos universales
+aplica a todos nuestros componenetes de html*/
+
+*{
+     margin: 10px;
+     font-size: 15px;
+     color: black;
+     background-color: beige;
+
+}
+
+div{
+    width: 100%;
+    border: 1px solid;
+}
+
+.logo{
+
+    width: 50%;
+    border: 1px solid red;
+}
+
+.menu{
+
+    width: 150%;
+    border: 1px solid red;
+}
+
+ul, a , li{
+    text-decoration: none;
+    color: blueviolet;
+
+}

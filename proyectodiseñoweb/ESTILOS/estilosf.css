@@ -1,0 +1,51 @@
+*{
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: #F5E0C3;
+
+}
+
+.encabezado {
+
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 70px; /* Reduce el margen del párrafo */
+    font-size: 50px; /* Agranda el tamaño del texto */
+    color: #6b6767;
+
+}
+   
+.centered-text {
+
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 100px; /* Reduce el margen del párrafo */
+    font-size: 27px; /* Aumenta el tamaño de la letra */
+    color: #58575a;
+
+}
+
+ul, a , li{
+
+    text-decoration: none;
+    color: #a5800f;
+    font-size: 20px;
+}
+
+.contacto{
+
+    font-size: 30px;
+    color: #90195D;
+}
+
+.numero{
+
+    font-size: 25px;
+    color: #90195D;
+    
+}
+
+.email{
+
+    font-size: 25px;
+    color: #90195D;
+}
