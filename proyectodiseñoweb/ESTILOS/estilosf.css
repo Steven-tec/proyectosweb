@@ -1,51 +1,48 @@
-*{
-    margin: 10px;
-    font-size: 15px;
-    color: black;
-    background-color: #F5E0C3;
-
+/* Estilos globales para todos los elementos */
+* {
+    margin: 10px; /* Margen global de 10px para todos los elementos */
+    font-size: 15px; /* Tamaño de fuente por defecto para todos los elementos */
+    color: black; /* Color del texto predeterminado */
+    background-color: #F5E0C3; /* Color de fondo para todo el sitio */
 }
 
+/* Estilos para el encabezado principal */
 .encabezado {
-
     text-align: center; /* Centra el texto horizontalmente */
-    margin: 70px; /* Reduce el margen del párrafo */
-    font-size: 50px; /* Agranda el tamaño del texto */
-    color: #6b6767;
-
+    margin: 70px; /* Aplica un margen de 70px alrededor del encabezado */
+    font-size: 50px; /* Tamaño de fuente grande para el encabezado */
+    color: #6b6767; /* Color del texto en gris oscuro */
 }
-   
+
+/* Estilos para el texto centrado, como el párrafo principal */
 .centered-text {
-
     text-align: center; /* Centra el texto horizontalmente */
-    margin: 100px; /* Reduce el margen del párrafo */
-    font-size: 27px; /* Aumenta el tamaño de la letra */
-    color: #58575a;
-
+    margin: 100px; /* Margen alrededor del párrafo */
+    font-size: 27px; /* Tamaño de fuente aumentado para mejor legibilidad */
+    color: #58575a; /* Color del texto en gris medio */
 }
 
-ul, a , li{
-
-    text-decoration: none;
-    color: #a5800f;
-    font-size: 20px;
+/* Estilos para listas, enlaces y elementos de lista */
+ul, a, li {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #a5800f; /* Color marrón claro para los enlaces y elementos de lista */
+    font-size: 20px; /* Tamaño de fuente ajustado para los elementos del menú */
 }
 
-.contacto{
-
-    font-size: 30px;
-    color: #90195D;
+/* Estilos para el título de la sección de contactos */
+.contacto {
+    font-size: 30px; /* Tamaño de fuente grande para la sección de contactos */
+    color: #90195D; /* Color púrpura oscuro para el texto */
 }
 
-.numero{
-
-    font-size: 25px;
-    color: #90195D;
-    
+/* Estilos para el número de teléfono */
+.numero {
+    font-size: 25px; /* Tamaño de fuente para el número de contacto */
+    color: #90195D; /* Mismo color púrpura oscuro que en contactos */
 }
 
-.email{
-
-    font-size: 25px;
-    color: #90195D;
+/* Estilos para el correo electrónico */
+.email {
+    font-size: 25px; /* Tamaño de fuente para el correo electrónico */
+    color: #90195D; /* Color púrpura oscuro para el correo electrónico */
 }
