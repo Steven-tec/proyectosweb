@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuacion cuadratica</title>
+</head>
+
+<body>
+
+    <h1>Ecuacion cuadratica por la formula general</h1><!--un titulo sobre q trata la pagina-->>
+
+
+
+    <script>
+        // Pedimos al usuario que ingrese los valores de a, b y c
+        // 'prompt()' abre un cuadro de diálogo para ingresar el valor, y el resultado se guarda como texto.
+        var a = prompt("Ingrese el valor de a");
+        var b = prompt("Ingrese el valor de b");
+        var c = prompt("Ingrese el valor de c");
+
+        // Utilizamos 'document.write()' para mostrar el valor de 'a' en el documento HTML y usamos el <br> para crear un salto de linea y que no
+        //se vea todo junto en una sola linea.
+        // 'a' es la variable que contiene el valor ingresado por el usuario para el coeficiente 'a' de la ecuación cuadrática.
+        document.write("a = ", a, "<br>");
+
+        // Hacemos lo mismo para la variable 'b', que contiene el valor ingresado por el usuario para el coeficiente 'b'.
+        document.write("b = ", b, "<br>");
+
+        // Y nuevamente para la variable 'c', que contiene el valor ingresado por el usuario para el coeficiente 'c'.
+        document.write("c = ", c, "<br>");
+
+
+        // Calculamos la raiz, que es parte de la fórmula cuadrática (b^2 - 4ac).
+        // Esto determina si las soluciones son reales o complejas o a su vez una raiz doble.
+        var raiz = b * b - 4 * a * c;
+
+        // Verificamos si las soluciones son reales o complejas usando el valor de la raiz.
+        if (raiz > 0) { // Caso 1: raiz es mayor a 0, tenemos dos soluciones reales y distintas.
+
+            // Calculamos la primera solución real (x1) usando la fórmula general.
+            // 'Math.sqrt(raiz)' obtiene la raíz cuadrada del discriminante.
+            var x1 = (-b + Math.sqrt(raiz)) / (2 * a);
+
+            // Calculamos la segunda solución real (x2) usando la fórmula general.
+            var x2 = (-b - Math.sqrt(raiz)) / (2 * a);
+            // Mostramos el valor de la raíz (discriminante) en la consola para referencia.
+            console.log("El resultado de la raíz es: ", raiz);
+
+            // Informamos que las soluciones son reales y diferentes.
+            console.log("Las soluciones son reales y diferentes.");
+
+            // Mostramos los valores de x1 y x2 en la consola.
+            console.log("x1 = " + x1);
+            console.log("x2 = " + x2);
+
+        } else if (raiz === 0) { // Caso 2: raiz igual a 0, hay una única solución real.
+
+            // Calculamos la única solución (x) que es la raíz doble.
+            var raiz = b * b - 4 * a * c;
+            console.log("El resultado de la raiz en x1 es : ", raiz); //mostrara el resultado de la raiz para servir como referencia de que esta pasando.
+            console.log("El resultado de la raiz en x2 es : ", raiz);//mostrara el resultado de la raiz para servir como referencia de que esta pasando.
+            //el siguiente var usado en la parte posterior es la formula que da como resultante despues de tener una raiz en 0 en los dos.
+            var x = -b / (2 * a);//la formula general simplificada a solo dejarlo en -b sobre 2a.
+            // Informamos que las soluciones son reales e iguales (raíz doble).
+            console.log("Las soluciones son reales e iguales lo cual da a una raiz doble.");
+
+            // Mostramos el valor de la única solución en la consola.
+            console.log("x1 = x2 lo que da como resultado = ", x);
+
+        } else { // Caso 3: raiz menor a 0, las soluciones son complejas.
+
+            // Calculamos la parte real de la solución compleja.
+            var NumeroeReal = -b / (2 * a);
+
+            // Calculamos la parte imaginaria de la solución compleja.
+            // Usamos '-raiz' porque el discriminante es negativo, y 'Math.sqrt' solo trabaja con números positivos.
+            var NuemroImaginario = Math.sqrt(-raiz) / (2 * a);
+
+            // Informamos que el resultado es una solución compleja debido al discriminante negativo.
+            console.log("El valor es una solución compleja debido a un número negativo en la raíz como resultado", raiz);
+
+            // Mostramos el valor del discriminante convertido a positivo para calcular la parte imaginaria.
+            console.log("El valor una vez transformado es el mismo pero cambia a positivo", -raiz);
+
+            // Informamos que las soluciones son complejas (números complejos).
+            console.log("Las soluciones son complejas.");
+
+            // Mostramos las dos soluciones complejas en la consola en el formato: numero real ± numero imaginario * i.
+            console.log("x1 = " + NumeroeReal + " + " + NuemroImaginario + "i");
+            console.log("x2 = " + NumeroeReal + " - " + NuemroImaginario + "i");
+        }
+
+    </script>
+
+    <img src="imagenes/formulageneral.jpg" alt="formula general"> <!-- ingreso de la imagen de la formula general-->>
+</body>
+
+</html>

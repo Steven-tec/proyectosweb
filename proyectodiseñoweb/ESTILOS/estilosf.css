@@ -46,3 +46,26 @@ ul, a, li {
     font-size: 25px; /* Tamaño de fuente para el correo electrónico */
     color: #90195D; /* Color púrpura oscuro para el correo electrónico */
 }
+
+table {
+    border-collapse: collapse; /* Elimina los espacios entre bordes de celdas de la tabla */
+    width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+    border: 5px solid #cc2e87; /* Define un borde púrpura alrededor de la tabla */
+    text-align: center; /* Centra el texto en todas las celdas de la tabla */
+}
+
+/* Color de fondo para las filas de datos */
+table tbody tr {
+    background-color: #91a3b0; /* Aplica un color de fondo gris claro a las filas del cuerpo de la tabla */
+}
+
+p{
+    font-style: normal;
+    color: #800000;
+}
+
+h2,.h2{
+    font-style: normal;
+    color: #90195D;
+
+}

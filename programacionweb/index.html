@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introducion a JS</title>
+
+</head>
+<body>
+
+    <h1>Introducion a Java Script</h1>
+
+    <script>
+        alert("hola mundo");
+        document.write("Hola mundo");
+        console.log("Hola mundo");
+        //variables en JS
+        var nombre="steven";
+        alert(nombre);
+        var edad=16;
+        console.log("El nombre del estudiante es: "+nombre+" y tiene "+edad+" años");
+        var apellido = prompt("Ingrese el apellido del estudiante");
+        //Tipos de variables
+        //Numericas
+        var edad=39;
+        //String
+        var direccion = "pisuli"
+        //Arreglo
+        var amigos=["Ronny","Geovanny","Challane","Alexis"];
+        //Boleano
+        var Boleano=false;
+        //Undefined
+        var ejemplo
+        //null
+        var numero2=10;
+        var numero2=null;
+        //Nan
+        var texto2="hola como estas";
+        console.log(texto2*2);
+        //Arreglos
+        var amigos2=["Carlos","Mejia","Luis"];
+        console.log(amigos2[0]);
+        //Editar un dato de un arreglo
+        amigos2[1]="Carina"
+        console.log(amigos)
+        //Vamos a obtener el tamaño de mi arreglo
+        console.log("Tienes "+amigos2.length +" Amigos");
+        //Vamos a añadir un elemento al final de mi arreglo
+        amigos2[amigos2.length]="Diego";
+        console.log(amigos2);
+        //Añadimos varios elementos al arreglo
+        amigos2.push("Lenin", "Alexis", "Ariana");
+        console.log(amigos2);
+        //Eliminar el ultimo dato del arreglo
+        amigos2.pop();
+        console.log(amigos2);
+        //Concatenar arreglos 
+        var amigos3 = amigos.concat(amigos2);
+        console.log(amigos3);
+        //Operadores matematicos
+        /*suma +,
+        resta-,
+        divison/,
+        multiplicacion*,
+        modulo % */
+        var a=5;
+        var b=2
+        var suma= a+b;
+        console.log("La suma de a + b es: ",suma);
+        //Math
+        var c=9
+        var d= Math.sqrt(c);
+        console.log("La raiz es : ",d);
+        //Condicionales
+        //Operadores logicos
+        //&& AND
+        //|| or
+        if(d>5){
+            console.log("El valor no es exacto");
+        }else{
+            console.log("El valor es exacto");
+        }
+        
+
+
+
+
+    </script>
+
+</body>
+</html>
