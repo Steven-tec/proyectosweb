@@ -2,7 +2,7 @@
 
 window.onload = function () { //Esta línea indica que el código dentro de la función se ejecutará cuando la página web se haya cargado completamente.
     // 1. Se declara una variable booleana para controlar el bucle
-    let numeroValido = false;
+    let numeroValido = false;//let definida como una variable q solo se puede usar en un bloque.
 
     // 2. Se inicia un bucle while que continuará mientras numeroValido sea falso
     while (!numeroValido) { //bucle de verdad o falso mas comodo q un for y la exclamacion lo invierte
