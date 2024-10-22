@@ -1,14 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Declara el tipo de documento y el idioma como inglés -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Establece la codificación de caracteres como UTF-8 para soportar múltiples idiomas y caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../ESTILOS/estilosf.css">
-    <title>Document</title>
+      <!-- Define el icono de la página con un tamaño de 32x32 píxeles y el tipo de imagen (JPG) -->
+      <link rel="icon" type="image/jpg" sizes="32x32" href="../imagenesf/logo_finla.png">
+    <!-- Configura el viewport para que el diseño sea responsive y se adapte a dispositivos móviles -->
+    <link rel="stylesheet" href="../ESTILOS/servicio.css">
+    <!-- Vincula la hoja de estilo externa con el archivo CSS que aplicará los estilos a este HTML -->
+    <title>Servicio al Cliente | El Salinerito</title>
+    <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
 </head>
+
 <body>
-    <ul>
-        <li><a href="../proyectofinal.html" target="_blank">Regresar pagina principal</a></li>
+
+    <!-- Menú de navegación para regresar a la página principal -->
+    <ul class="menu-regresar">
+        <li><a href="../proyectofinal.html" target="_blank">Regresar página principal</a></li>
+        <!-- Enlace que redirige a la página principal del proyecto -->
     </ul>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1 class="encabezado">Servicio al Cliente</h1>
+        <!-- Título principal de la página -->
+    </header>
+
+    <!-- Sección de atención al cliente con información básica -->
+    <section class="info-cliente">
+        <h2>¿Cómo podemos ayudarte?</h2>
+        <!-- Subtítulo de la sección -->
+        <p>En <strong>El Salinerito</strong>, estamos comprometidos con ofrecerte la mejor experiencia en chocolate
+            artesanal.
+            Si tienes alguna pregunta, problema o solicitud, ¡estamos aquí para ayudarte!</p>
+        <!-- Párrafo explicativo sobre el servicio al cliente -->
+    </section>
+
+    <!-- Información de contacto para el cliente -->
+    <section class="contacto-cliente">
+        <h2>Contáctanos</h2>
+        <!-- Subtítulo de la sección de contacto -->
+        <p><strong>Teléfono:</strong> 098-670-500</p>
+        <!-- Información del teléfono -->
+        <p><strong>Email:</strong> servicioalcliente@elsalinerito.com</p>
+        <!-- Información del correo electrónico -->
+        <p><strong>Horario de Atención:</strong> Lunes a Viernes, de 9:00 a 18:00</p>
+        <!-- Información del horario de atención al cliente -->
+    </section>
+
+    <!-- Formulario de contacto donde los usuarios pueden enviar un mensaje -->
+    <section class="formulario-contacto">
+        <h2>Envíanos un Mensaje</h2>
+        <!-- Subtítulo del formulario -->
+        <form action="#" method="post">
+            <!-- Inicia el formulario que enviará la información -->
+            <label for="nombre">Nombre Completo:</label>
+            <!-- Etiqueta para el campo de nombre -->
+            <input type="text" id="nombre" name="nombre" required>
+            <!-- Campo de texto para ingresar el nombre completo del usuario -->
+
+            <label for="email">Correo Electrónico:</label>
+            <!-- Etiqueta para el campo de correo electrónico -->
+            <input type="email" id="email" name="email" required>
+            <!-- Campo de correo electrónico para que el usuario ingrese su email -->
+
+            <label for="mensaje">Mensaje:</label>
+            <!-- Etiqueta para el campo de mensaje -->
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            <!-- Área de texto donde el usuario puede escribir su mensaje -->
+
+            <button type="submit">Enviar</button>
+            <!-- Botón para enviar el formulario -->
+        </form>
+        <!-- Fin del formulario -->
+    </section>
+
+    <!-- Sección de preguntas frecuentes -->
+    <section class="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <!-- Subtítulo para las preguntas frecuentes -->
+        <ul>
+            <li><strong>¿Dónde está ubicada la tienda?</strong> Nuestra tienda se encuentra en el corazón de Salinas.
+                <!-- Pregunta sobre la ubicación de la tienda -->
+            </li>
+            <li><strong>¿Qué métodos de pago aceptan?</strong> Aceptamos tarjetas de crédito, débito y pagos en
+                efectivo.</li>
+            <!-- Pregunta sobre los métodos de pago aceptados -->
+            <li><strong>¿Realizan envíos internacionales?</strong> Sí, realizamos envíos a nivel mundial con tarifas
+                adicionales.</li>
+            <!-- Pregunta sobre los envíos internacionales -->
+        </ul>
+        <!-- Lista de preguntas frecuentes -->
+    </section>
+
+    <!-- Pie de página con derechos reservados -->
+    <footer class="copy">
+        <p>&copy; 2024 Hecho por Steven Cabascango y Ronny Bastidas.
+            Todos los derechos reservados.</p>
+        <!-- Mensaje de derechos de autor con el año y los nombres de los creadores -->
+    </footer>
+
 </body>
+
 </html>

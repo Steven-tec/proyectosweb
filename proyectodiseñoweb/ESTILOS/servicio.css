@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Fuente de texto general para la página */
+    margin: 0;
+    /* Elimina márgenes del cuerpo */
+    padding: 0;
+    /* Elimina relleno interno del cuerpo */
+    background-color: #e0c187;
+    /* Color de fondo crema suave */
+    color: #4b3832;
+    /* Color del texto marrón chocolate */
+}
+
+/* Encabezado */
+header {
+    background-color: #4d2600;
+    /* Fondo marrón oscuro para el encabezado */
+    padding: 20px;
+    /* Espaciado interno del encabezado */
+    text-align: center;
+    /* Centra el contenido del encabezado */
+}
+
+.encabezado {
+    color: #bb7e38;
+    /* Color crema suave para el texto del encabezado */
+    font-size: 2.5rem;
+    /* Tamaño de la fuente del encabezado */
+    margin: 0;
+    /* Elimina el margen del título del encabezado */
+}
+
+/* Estilo para el menú de regresar */
+.menu-regresar {
+    list-style-type: none;
+    /* Elimina los puntos de la lista del menú */
+    padding: 0;
+    /* Elimina relleno interno */
+    margin: 20px auto;
+    /* Añade margen superior e inferior y centra el menú horizontalmente */
+    text-align: center;
+    /* Centra el texto del menú */
+}
+
+.menu-regresar li {
+    display: inline;
+    /* Muestra los elementos de la lista en línea, en vez de en bloques verticales */
+    margin-right: 15px;
+    /* Añade espacio entre los elementos del menú */
+}
+
+.menu-regresar a {
+    background-color: #c5912f;
+    /* Fondo dorado para los enlaces del menú */
+    color: #251414;
+    /* Color del texto marrón oscuro */
+    padding: 10px 20px;
+    /* Espaciado interno de los enlaces del menú */
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    font-size: 1.2rem;
+    /* Tamaño de la fuente de los enlaces */
+    border-radius: 5px;
+    /* Bordes redondeados de los botones */
+    transition: background-color 0.3s ease;
+    /* Añade un efecto de transición suave al cambiar de color */
+}
+
+.menu-regresar a:hover {
+    background-color: #ca8c7b;
+    /* Color dorado más oscuro cuando se pasa el mouse sobre los enlaces */
+}
+
+/* Secciones */
+section {
+    margin: 20px;
+    /* Añade margen externo alrededor de las secciones */
+    padding: 20px;
+    /* Añade relleno interno dentro de las secciones */
+    background-color: #f7dfa8;
+    /* Fondo blanco para las secciones */
+}
+
+/* Títulos de las secciones */
+section h2 {
+    color: #b66509;
+    /* Color dorado para los títulos de las secciones */
+    font-size: 1.8rem;
+    /* Tamaño de la fuente para los títulos de las secciones */
+    margin-bottom: 10px;
+    /* Añade margen inferior debajo de los títulos */
+}
+
+/* Párrafos */
+section p {
+    color: #111111;
+    /* Color marrón chocolate para los párrafos */
+    font-size: 1.1rem;
+    /* Tamaño de la fuente para los párrafos */
+    line-height: 1.6;
+    /* Espaciado entre líneas para mejorar la legibilidad */
+}
+
+/* Formulario de contacto */
+.formulario-contacto form {
+    display: flex;
+    /* Usar flexbox para alinear los elementos del formulario */
+    flex-direction: column;
+    /* Colocar los elementos del formulario en una columna */
+}
+
+.formulario-contacto label {
+    font-size: 1.1rem;
+    /* Tamaño de la fuente para las etiquetas del formulario */
+    color: #2c160f;
+    /* Color marrón oscuro para las etiquetas */
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    /* Espaciado interno dentro de los campos del formulario */
+    font-size: 1rem;
+    /* Tamaño de la fuente dentro de los campos del formulario */
+    border: 1px solid #d3ae35;
+    /* Borde dorado alrededor de los campos */
+    border-radius: 4px;
+    /* Bordes redondeados para los campos del formulario */
+    background-color: #f0dfbb;
+    /* Fondo crema suave para los campos del formulario */
+    color: #4b3832;
+    /* Color marrón chocolate para el texto dentro de los campos */
+}
+
+.formulario-contacto button {
+    background-color: #d4af37;
+    /* Fondo dorado para el botón del formulario */
+    color: #000000;
+    /* Texto negro para el botón */
+    padding: 10px 20px;
+    /* Espaciado interno del botón */
+    font-size: 1.1rem;
+    /* Tamaño de la fuente para el texto del botón */
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 4px;
+    /* Bordes redondeados del botón */
+    cursor: pointer;
+    /* Cambia el cursor a una mano al pasar sobre el botón */
+    transition: background-color 0.3s ease;
+    /* Añade un efecto de transición suave al cambiar el color del botón */
+}
+
+.formulario-contacto button:hover {
+    background-color: #b98b30;
+    /* Color más oscuro cuando se pasa el mouse sobre el botón */
+}
+
+/* Preguntas frecuentes */
+.faq ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista de preguntas frecuentes */
+    padding: 0;
+    /* Elimina el relleno interno de la lista */
+}
+
+.faq ul li {
+    margin-bottom: 10px;
+    /* Añade margen inferior entre las preguntas */
+}
+
+.faq ul li strong {
+    color: #1b1a1a;
+    /* Color marrón chocolate para el texto resaltado */
+}
+
+/* Estilo del pie de página para copyright */
+.copy {
+    text-align: center;
+    /* Centra el texto del pie de página */
+    color: rgb(99, 11, 110);
+    /* Color morado para el texto del pie de página */
+}
+
+/* Responsividad para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    section {
+        margin: 10px;
+        /* Reduce el margen para las secciones en pantallas pequeñas */
+    }
+}

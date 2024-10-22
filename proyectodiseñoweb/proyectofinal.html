@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Define el tipo de documento como HTML5 y establece el idioma como inglés -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Codificación de caracteres UTF-8 para admitir caracteres especiales -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define el icono de la página con un tamaño de 32x32 píxeles y el tipo de imagen (JPG) -->
+    <link rel="icon" type="image/jpg" sizes="32x32" href="imagenesf/logo_finla.png">
+    <!-- Define el viewport para que la página sea responsiva en dispositivos móviles -->
     <link rel="stylesheet" href="ESTILOS/estilosf.css">
-    <title>Chocolateria el salinerito</title>
+    <!-- Vincula la hoja de estilo externa para aplicar el diseño y formato al documento -->
+    <title>Chocolatería El Salinerito</title>
+    <!-- Define el título que aparecerá en la pestaña del navegador -->
 </head>
-<body>
-    
 
-    <!-- Encabezado del sitio web -->
+<body>
+
+    <!-- Encabezado principal del sitio web -->
     <header>
-        <h1 class="encabezado">CHOCOLATERIA EL SALINERITO</h1> <!-- Título principal del sitio web -->
+        <h1 class="encabezado">CHOCOLATERÍA EL SALINERITO</h1>
+        <!-- Título principal del sitio web con una clase específica para aplicar estilos -->
     </header>
 
-    <!-- Menú de navegación -->
-    <div> <!-- Contenedor del menú -->
-        <ul> <!-- Lista desordenada para los enlaces del menú -->
-           <li><a href="paginasmenu/servicioalcliente.html">Servicio al cliente</a></li> <!-- Enlace a la página de servicio al cliente -->
-           <li><a href="paginasmenu/catalgoproductos.html">Catálogo de productos</a></li> <!-- Enlace al catálogo de productos -->
-            <li><a href="paginasmenu/ubicacion.html">Ubicación del Establecimiento</a></li><!-- Enlace a la ubicación del establecimiento -->
+    <!-- Menú de navegación del sitio web -->
+    <nav>
+        <!-- Usa la etiqueta <nav> para indicar la barra de navegación del sitio -->
+        <ul>
+            <!-- Lista desordenada para contener los enlaces de navegación -->
+            <li><a href="paginasmenu/servicioalcliente.html">Servicio al Cliente</a></li>
+            <!-- Enlace a la página de servicio al cliente -->
+            <li><a href="paginasmenu/catalgoproductos.html">Catálogo de Productos</a></li>
+            <!-- Enlace a la página del catálogo de productos -->
+            <li><a href="paginasmenu/ubicacion.html">Ubicación del Establecimiento</a></li>
+            <!-- Enlace a la página de ubicación del establecimiento -->
         </ul>
+    </nav>
+
+    <!-- Contenedor para el logo de la chocolatería -->
+    <div class="logo-container">
+        <!-- Crea un contenedor específico para el logo, facilitando la aplicación de estilos centrados -->
+        <img src="imagenesf/chocolates_final.png" alt="logo salinerito" title="Logo de Salinerito">
+        <!-- Imagen del logo con el atributo alt que describe la imagen y el atributo title para mostrar un tooltip al pasar el mouse -->
     </div>
 
-    <!-- Logo de la chocolatería centrado -->
-    <center> <!-- El contenido dentro de esta etiqueta estará centrado -->
-        <img src="imagenesf/logosalf.png" alt="logo salinerito" width="550" height="550" title="logo"> <!-- Imagen del logo con tamaño definido -->
-    </center>
-
-    <!-- Párrafo descriptivo de la empresa -->
-    <p class="centered-text"> <!-- Párrafo con texto centrado y clase específica -->
-        En El Salinerito, nos esforzamos por crear chocolate artesanal de la más alta calidad elaborado con cacao de rico sabor de pequeños productores 
-        locales. Con un fuerte compromiso con el comercio justo y la sostenibilidad, cada uno de nuestros productos refleja la riqueza de nuestro país y los esfuerzos de las 
-        comunidades que nos apoyan. Desde barras de chocolate amargo hasta chocolates de sabores únicos, El Salinerito se esfuerza por brindar una experiencia de sabor incomparable, 
-        respetar la tradición y proteger el medio ambiente. <!-- Descripción de la misión y los valores de la empresa -->
+    <!-- Párrafo descriptivo sobre la empresa -->
+    <p class="centered-text">
+        <!-- Párrafo con una clase que le da un estilo de texto centrado -->
+        En El Salinerito, nos esforzamos por crear chocolate artesanal de la más alta calidad elaborado con cacao de
+        rico sabor de pequeños productores
+        locales. Con un fuerte compromiso con el comercio justo y la sostenibilidad, cada uno de nuestros productos
+        refleja la riqueza de nuestro país y los esfuerzos de las
+        comunidades que nos apoyan. Desde barras de chocolate amargo hasta chocolates de sabores únicos, El Salinerito
+        se esfuerza por brindar una experiencia de sabor incomparable,
+        respetar la tradición y proteger el medio ambiente.
+        <!-- Descripción de la misión y valores de la chocolatería -->
     </p>
 
-    <!-- Imagen adicional del chocolate -->
-    <img src="imagenesf/choco.png" alt="chocolate salinerito" width="270" height="285" title="chocolate"> <!-- Imagen del producto de chocolate -->
+    <!-- Contenedor para una imagen adicional del producto -->
+    <div class="product-image">
+        <!-- Contenedor específico para la imagen del producto -->
+        <img src="imagenesf/choco_finales.png" alt="chocolate salinerito" class="chocolate-image" title="Chocolate">
+        <!-- Imagen del producto (chocolate), con clases específicas para aplicar estilos -->
+    </div>
 
-    <!-- Sección de contacto -->
-    <h1 class="contacto">CONTACTOS</h1> <!-- Título de la sección de contactos -->
-
-    <!-- Información de contacto con icono de teléfono -->
-    <h1 class="numero"> <!-- Título con el número de contacto, incluyendo un icono -->
-        <img src="imagenesf/phone.png" alt="ícono teléfono" width="85" title="logo">098-000-123 <!-- Imagen de teléfono con número de contacto -->
-    </h1>
-
-    <!-- Información de correo electrónico con icono de correo -->
-    <h1 class="email"> <!-- Título con el correo electrónico, incluyendo un icono -->
-        <img src="imagenesf/correo.png" alt="ícono correo" width="100" title="logo">SalineritoChocolates@hotmail.com <!-- Imagen de correo electrónico con la dirección de email -->
-    </h1>
-
-
+    <!-- Pie de página con los derechos de autor -->
+    <footer class="copy">
+        <p>&copy; 2024 Hecho por Steven Cabascango y Ronny Bastidas.
+            Todos los derechos reservados.</p>
+        <!-- Pie de página con derechos de autor, que incluye el año y los autores del sitio -->
+    </footer>
 </body>
+<!-- Cierra el cuerpo del documento HTML -->
+
 </html>
+<!-- Cierra el documento HTML -->

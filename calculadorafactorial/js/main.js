@@ -19,7 +19,7 @@ window.onload = function () { //Esta línea indica que el código dentro de la f
             alert("Por favor, ingrese un número entero positivo.");
         } else {
             // Si el número es válido, se llama a la función calcularFactorial
-            calcularFactorial(numero);
+            calcularFactorial(numero);//ponemos la operacion q se requiere hacer.
             // Se cambia el valor de numeroValido a true para salir del bucle
             numeroValido = true;
         }

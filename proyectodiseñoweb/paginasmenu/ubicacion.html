@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<!-- Define el tipo de documento como HTML5 y establece el idioma como español -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Establece la codificación de caracteres a UTF-8 para soportar múltiples idiomas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../ESTILOS/estilosf.css">
-    <title>Document</title>
+    <!-- Define el icono de la página con un tamaño de 32x32 píxeles y el tipo de imagen (JPG) -->
+    <link rel="icon" type="image/jpg" sizes="32x32" href="../imagenesf/logo_finla.png">
+    <!-- Define el viewport para que el diseño sea responsive en dispositivos móviles -->
+    <link rel="stylesheet" href="../ESTILOS/ubicacion.css">
+    <!-- Vincula la hoja de estilo externa que aplicará los estilos a este documento -->
+    <title>Ubicación | El Salinerito</title>
+    <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
 </head>
+
 <body>
-    <ul>
-        <li><a href="../proyectofinal.html" target="_blank">Regresar pagina principal</a></li>
+
+    <!-- Menú de navegación para regresar a la página principal -->
+    <ul class="menu-regresar">
+        <li><a href="../proyectofinal.html" target="_blank">Regresar página principal</a></li>
+        <!-- Enlace que redirige a la página principal del proyecto, abriéndola en una nueva pestaña -->
     </ul>
-    <h2>hola</h2>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+        <h1 class="encabezado">Ubicación de Chocolatería El Salinerito</h1>
+        <!-- Título principal de la página -->
+    </header>
+
+    <!-- Sección que describe la ubicación de la chocolatería -->
+    <section class="descripcion-ubicacion">
+        <h2>¿Dónde encontrarnos?</h2>
+        <!-- Subtítulo que indica la pregunta sobre la ubicación -->
+        <p>Estamos ubicados en el corazón de Salinas, un lugar ideal para disfrutar de nuestros exquisitos chocolates
+            artesanales. Aquí te mostramos nuestro croquis para que nos encuentres fácilmente.</p>
+        <!-- Párrafo que describe la ubicación general y que incluirá un croquis -->
+    </section>
+
+    <!-- Sección del croquis con un mapa embebido de Google Maps -->
+    <section class="croquis">
+        <h2>Croquis de Ubicación</h2>
+        <!-- Subtítulo que indica la sección del croquis de ubicación -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7940840914393!2d-78.50103968815475!3d-0.1997073354056224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a402fb07767%3A0x68ee99c54d840a96!2sSalinerito%20-%20Santa%20Clara!5e0!3m2!1ses-419!2sec!4v1729554247777!5m2!1ses-419!2sec"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Iframe que muestra un mapa embebido de Google Maps con la ubicación de la tienda. 
+             Incluye los parámetros para el tamaño del mapa, permitir pantalla completa y la política de referencia -->
+    </section>
+
+    <!-- Sección con la información de contacto de la chocolatería -->
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <!-- Subtítulo de la sección de contacto -->
+        <p><strong>Teléfono:</strong> 098-000-123</p>
+        <!-- Información del número de teléfono de contacto -->
+        <p><strong>Email:</strong> chocolateriasalinerito@elsalinerito.com</p>
+        <!-- Información del correo electrónico de contacto -->
+        <p><strong>Horario de Atención:</strong> Lunes a Viernes, de 9:00 a 18:00</p>
+        <!-- Información del horario de atención al cliente -->
+    </section>
+
+    <!-- Pie de página con los derechos de autor -->
+    <footer class="copy">
+        <p>&copy; 2024 Hecho por Steven Cabascango y Ronny Bastidas.
+            Todos los derechos reservados.</p>
+        <!-- Mensaje de derechos reservados, indicando el año y los autores del sitio -->
+    </footer>
+
 </body>
+<!-- Cierra el cuerpo del documento -->
+</body>
+<!-- Etiqueta body duplicada, que puede ser eliminada ya que no es necesaria -->
+</body>
+<!-- Etiqueta body duplicada otra vez, también se puede eliminar -->
+
 </html>
+<!-- Cierra el documento HTML -->

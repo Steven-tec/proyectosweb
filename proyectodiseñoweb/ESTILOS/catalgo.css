@@ -1,0 +1,118 @@
+/* General */
+body {
+    font-family: Arial, sans-serif; /* Fuente para todo el sitio */
+    background-color: #c9a632; /* Color de fondo general para una apariencia suave */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el menú de regresar */
+.menu-regresar {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 20px auto;
+    /* Centra el menú horizontalmente */
+    text-align: center;
+    /* Centra el texto */
+}
+
+.menu-regresar li {
+    display: inline;
+    /* Para que los elementos de la lista aparezcan en línea */
+    margin-right: 15px;
+    /* Espacio entre el enlace y los elementos siguientes */
+}
+
+.menu-regresar a {
+    background-color: #e6b517;
+    /* Fondo dorado */
+    color:rgb(20, 20, 19);
+    /* Texto blanco */
+    padding: 10px 20px;
+    /* Espaciado interno del botón */
+    text-decoration: none;
+    /* Quita el subrayado */
+    font-size: 1.2rem;
+    /* Tamaño de fuente */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+    /* Efecto de transición al pasar el mouse */
+}
+
+.menu-regresar a:hover {
+    background-color: #da8a2f;
+    /* Color dorado más oscuro al pasar el mouse */
+}
+/* Estilos del menú de navegación */
+ul {
+    list-style-type: none; /* Eliminar puntos de la lista */
+    padding: 0;
+    background-color: #751717; /* Color de fondo oscuro para el menú */
+}
+
+
+/* Sección principal */
+section {
+    padding: 20px; /* Añadir espacio alrededor de la sección */
+    background-color: rgb(189, 152, 73); /* Fondo de color para el contenido principal */
+    margin: 20px auto; /* Espacio fuera del contenedor */
+    max-width: 900px; /* Limitar el ancho máximo del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto en relieve */
+}
+
+/* Títulos */
+h2 {
+    color: #333; /* Color oscuro para el título */
+    text-align: center; /* Centrar el título */
+    font-size: 28px; /* Tamaño de fuente del título */
+}
+
+/* Párrafo */
+p {
+    text-align: center; /* Centrar el párrafo */
+    font-size: 18px; /* Aumentar tamaño de fuente */
+    margin-bottom: 20px; /* Añadir espacio debajo del párrafo */
+}
+
+/* Imagen */
+img {
+    display: block; /* Mostrar como bloque para centrar */
+    margin: 0 auto; /* Centrando la imagen */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+/* Tabla */
+table {
+    width: 100%; /* Tabla ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    margin-bottom: 20px; /* Espacio debajo de la tabla */
+    font-size: 16px; /* Tamaño de fuente de la tabla */
+}
+
+th, td {
+    padding: 10px; /* Espacio interno de las celdas */
+    text-align: center; /* Alinear texto al centro */
+    border: 1px solid #0f0f0f; /* Bordes de las celdas */
+}
+
+th {
+    background-color: #a3751f; /* Fondo oscuro para los encabezados */
+    color: rgb(121, 7, 7); /* Color de texto blanco en encabezados */
+}
+
+td img {
+    width: 150px; /* Tamaño específico de las imágenes en las celdas */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Estilos de Hover para tabla */
+tr:hover {
+    background-color: #e99d9d; /* Cambiar fondo cuando se pasa el ratón sobre una fila */
+}
+
+.copy{
+    text-align: center; /*esta seccion se encarga de darle estilos al foter del copyright*/
+    color: rgb(99, 11, 110);
+}
